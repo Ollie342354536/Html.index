@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollo 11 Shop</title>
+    <link rel="stylesheet" href="100.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar (Vertical on the left) -->
+        <div class="nav">
+            <h4>The Apollo Missions</h4>
+	  	  <ul>
+	  <li><a href ="">Home</a></li>
+	  <li><a href ="Page 2 .html">Lift Off</a></li>
+	  <li><a href ="Page 4 .html">Gallery</a></li>
+	  <li><a href ="Page 5 .html">Shop</a></li>
+	  <li><a href ="Page 6 .html">Reports</a></li>
+	  <ul/>
+
+        </div>
+
+        <!-- Main content -->
+        <main>
+            <header>
+                <h1>Apollo 11 Shop</h1>
+            </header>
+
+            <section class="products"><center>
+
+                <div class="product-list">
+                    <div class="product">
+                        <img src="1.jpg" alt="Saturn V Model">
+                        <h3>Saturn V Model</h3>
+                        <p>Price: £99.99</p>
+                        <button class="add-to-cart" data-name="Saturn V Model" data-price="99.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="2.jpg" alt="Astronaut Suit">
+                        <h3>Astronaut Suit</h3>
+                        <p>Price: £199.99</p>
+                        <button class="add-to-cart" data-name="Astronaut Suit" data-price="199.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="3.jpg" alt="Moon Rock Replica">
+                        <h3>Moon Rock Replica</h3>
+                        <p>Price: £49.99</p>
+                        <button class="add-to-cart" data-name="Moon Rock Replica" data-price="49.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="4.jpg" alt="NASA Mug">
+                        <h3>NASA Mug</h3>
+                        <p>Price: £14.99</p>
+                        <button class="add-to-cart" data-name="NASA Mug" data-price="14.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="5.jpg" alt="Space Shuttle Toy">
+                        <h3>Space Shuttle Toy</h3>
+                        <p>Price: £29.99</p>
+                        <button class="add-to-cart" data-name="Space Shuttle Toy" data-price="29.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="6.jpg" alt="Apollo 11 Patch">
+                        <h3>Apollo 11 Patch</h3>
+                        <p>Price: £9.99</p>
+                        <button class="add-to-cart" data-name="Apollo 11 Patch" data-price="9.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="7.jpg" alt="Space Poster">
+                        <h3>Space Poster</h3>
+                        <p>Price: £19.99</p>
+                        <button class="add-to-cart" data-name="Space Poster" data-price="19.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="8.jpg" alt="Model Rocket Kit">
+                        <h3>Model Rocket Kit</h3>
+                        <p>Price: £34.99</p>
+                        <button class="add-to-cart" data-name="Model Rocket Kit" data-price="34.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="9.jpg" alt="NASA Hoodie">
+                        <h3>NASA Hoodie</h3>
+                        <p>Price: £49.99</p>
+                        <button class="add-to-cart" data-name="NASA Hoodie" data-price="49.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="10.jpg" alt="Astronaut Helmet">
+                        <h3>Astronaut Helmet</h3>
+                        <p>Price: £89.99</p>
+                        <button class="add-to-cart" data-name="Astronaut Helmet" data-price="89.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="11.jpg" alt="Galaxy Notebook">
+                        <h3>Galaxy Notebook</h3>
+                        <p>Price: £12.99</p>
+                        <button class="add-to-cart" data-name="Galaxy Notebook" data-price="12.99">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="12.jpg" alt="Stargazer Blanket">
+                        <h3>Stargazer Blanket</h3>
+                        <p>Price: £39.99</p>
+                        <button class="add-to-cart" data-name="Stargazer Blanket" data-price="39.99">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cart">
+                <h2>Shopping Cart</h2>
+                <ul id="cart-items">
+                    <!-- Cart items will be added here -->
+                </ul>
+                <button id="checkoutButton" onclick="location.href='shop.html'">Checkout</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Apollo 11 Shop</p>
+        </footer>
+    </div>
+
+    <script>
+        const cartItems = [];
+
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', function() {
+                const productName = this.getAttribute('data-name');
+                const productPrice = this.getAttribute('data-price');
+                addToCart(productName, productPrice);
+            });
+        });
+
+        function addToCart(name, price) {
+            const item = { name, price };
+            cartItems.push(item);
+            updateCart();
+        }
+
+        function updateCart() {
+            const cartList = document.getElementById('cart-items');
+            cartList.innerHTML = '';
+            cartItems.forEach(item => {
+                const li = document.createElement('li');
+                li.innerText = `${item.name} - £${item.price}`;
+                cartList.appendChild(li);
+            });
+
+            localStorage.setItem('cartItems', JSON.stringify(cartItems));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.nav h4 {
+    margin: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.content {
+    margin: 20px auto;
+}
+
+.image-slot, .video-slot {
+    margin: 20px auto;
+}

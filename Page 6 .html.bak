@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Apollo Missions</title>
+    <link rel="stylesheet" href="rocket.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <div class="nav">
+            <h4>The Apollo Missions</h4>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="Page 2 .html">Lift Off</a></li>
+                <li><a href="Page 4 .html">Gallery</a></li>
+                <li><a href="Page 5 .html">Shop</a></li>
+                <li><a href="Page 6 .html">Reports</a></li>
+            </ul>
+        </div>
+
+        <!-- Main content -->
+        <div class="main">
+            <!-- Hero Section with Title Over Image -->
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1>The Apollo Missions Reports</h1>
+                    <p>Exploring the Moon and Beyond</p>
+                </div>
+            </div>
+
+            <!-- Introduction Section -->
+            <div class="content-section">
+                <h2>Introduction</h2>
+                <p>The Apollo program was a series of space missions conducted by NASA between 1961 and 1972. The primary goal was to land humans on the Moon and bring them back safely to Earth, which was successfully achieved by Apollo 11 in 1969. These missions are considered some of the most iconic and groundbreaking achievements in human history.</p>
+            </div>
+
+            <!-- Reports Section -->
+            <div class="content-section">
+                <h2>Reports on Each Rocket</h2>
+                
+                <!-- Apollo 11 Report -->
+                <div class="report-section">
+                    <h3>Apollo 11: The Historic Moon Landing</h3>
+                    <div class="report-container">
+                        <div class="report-image">
+                            <img src="30.jpg" alt="Apollo 11 Rocket" class="section-image">
+                        </div>
+                        <div class="report-content">
+                            <p>On July 20, 1969, Apollo 11 successfully landed the first humans on the Moon. The mission's report details the challenges, successes, and technical breakthroughs that made this historic feat possible. Astronauts Neil Armstrong and Buzz Aldrin spent a total of 21 hours on the lunar surface, collecting samples and conducting experiments.</p>
+                            <a href="https://www.nasa.gov/mission_pages/apollo/apollo11.html" class="btn">Read Full Report</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apollo 13 Report -->
+                <div class="report-section">
+                    <h3>Apollo 13: A Triumph of Ingenuity</h3>
+                    <div class="report-container">
+                        <div class="report-image">
+                            <img src="31.jpg" alt="Apollo 13 Rocket" class="section-image">
+                        </div>
+                        <div class="report-content">
+                            <p>Apollo 13 was supposed to be the third crewed mission to land on the Moon, but an oxygen tank explosion forced the crew to abort the mission. The report highlights how mission control and the astronauts worked together to overcome unprecedented challenges, ensuring their safe return to Earth.</p>
+                            <a href="https://www.nasa.gov/mission_pages/apollo/apollo13.html" class="btn">Read Full Report</a>
+                        </div>
+                    </div>
+                </div>
+				<h2>Reports on Each Rocket</h2>
+                
+                <!-- Apollo 11 Report -->
+                <div class="report-section">
+                    <h3>Apollo 11: The Historic Moon Landing</h3>
+                    <div class="report-container">
+                        <div class="report-image">
+                            <img src="66.jpg" alt="Apollo 11 Rocket" class="section-image">
+                        </div>
+                        <div class="report-content">
+                            <p>On July 20, 1969, Apollo 11 successfully landed the first humans on the Moon. The mission's report details the challenges, successes, and technical breakthroughs that made this historic feat possible. Astronauts Neil Armstrong and Buzz Aldrin spent a total of 21 hours on the lunar surface, collecting samples and conducting experiments.</p>
+                            <a href="https://www.nasa.gov/mission_pages/apollo/apollo11.html" class="btn">Read Full Report</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apollo 13 Report -->
+                <div class="report-section">
+                    <h3>Apollo 13: A Triumph of Ingenuity</h3>
+                    <div class="report-container">
+                        <div class="report-image">
+                            <img src="55.jpg" alt="Apollo 13 Rocket" class="section-image">
+                        </div>
+                        <div class="report-content">
+                            <p>The Apollo missions were a series of spaceflights conducted by NASA with the goal of landing humans on the Moon and bringing them safely back to Earth. Beginning with Apollo 11, which successfully placed the first men on the lunar surface in 1969, these missions advanced space exploration and technology. Despite challenges, such as the Apollo 13 crisis, the Apollo program achieved significant milestones, leaving a lasting impact on science and human space travel.</p>
+                            <a href="https://www.nasa.gov/mission_pages/apollo/apollo13.html" class="btn">Read Full Report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button to see more -->
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Apollo Missions. All rights reserved.</p>
+    </footer>
+</body>
+</html>

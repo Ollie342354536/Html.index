@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Apollo Missions - Rocket Launches</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page 2.css">
+</head>
+<body>
+    <div class="container">
+        
+ <div class="nav">
+           
+		   <h4>The Apollo Missions</h4>
+	  	  <ul>
+	  <li><a href ="index.html">Home</a></li>
+	  <li><a href ="Page 2 .html">Lift Off</a></li>
+	  <li><a href ="Page 4 .html">Gallery</a></li>
+	  <li><a href ="Page 5 .html">Shop</a></li>
+	  <li><a href ="Page 6 .html">Reports</a></li>
+	  <ul/>
+
+
+        </div>
+
+
+        <div class="main">
+            <h1>Rocket Launches of the Apollo Missions</h1>
+            <p>The Apollo missions were a series of space flights conducted by NASA with the goal of landing humans on the Moon and bringing them safely back to Earth. These missions, conducted from 1961 to 1972, were instrumental in advancing space exploration and paving the way for future space endeavors.</p>
+
+            <!-- Main Launch Site Section -->
+            <section class="launch-site">
+                <h2>Main Launch Site: Kennedy Space Center</h2>
+                <p>The Kennedy Space Center (KSC), located on Merritt Island, Florida, served as the primary launch site for the Apollo missions. Established in 1962, it was selected for its proximity to the Atlantic Ocean, which allowed for safe launches of the massive Saturn V rockets. The site features multiple launch pads, including the famous Launch Complex 39A (LC-39A) and 39B (LC-39B), which were specially designed for the Apollo program.</p>
+                
+				                <div class="image-container">
+                    <img src="422.jpg" alt="Apollo 11">
+                </div>
+				<p>Kennedy Space Center was the location from which many significant milestones of the Apollo program occurred. This includes the launch of Apollo 11, the mission that successfully landed the first humans on the Moon in July 1969. The space center's iconic LC-39A, originally built for the Saturn V rockets, remains in operation today, supporting NASA's current missions, including the SpaceX Crew Dragon launches under the Commercial Crew Program.</p>
+                <p>The center's facilities include the Apollo Saturn V Center, where visitors can see the historic Saturn V rocket, the largest and most powerful rocket ever flown, and learn about the missions that changed the world. Kennedy Space Center continues to be an integral part of NASA's plans for future space exploration, including the Artemis program, which aims to return astronauts to the Moon in the coming decade.</p>
+                
+				                <div class="image-container">
+                    <img src="522.jpg" alt="Apollo 17">
+                </div>
+				
+				<p>Today, Kennedy Space Center is a key part of NASA’s legacy and future, providing both a historical look at past achievements and a launch point for the next generation of space exploration.</p>
+            </section>
+
+            <!-- Reduced Image Gallery -->
+            <div class="image-slot">
+                <div class="image-container">
+                    <img src="322.jpg" alt="Apollo 11">
+                </div>
+            </div>
+
+            <!-- Button to see more info -->
+            <div class="button-container">
+                <button class="btn" onclick="window.open('https://www.nasa.gov/the-apollo-program/', '_blank')">See More</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Apollo Missions. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+	  <h4> apollo something <h4/>
+	  	  <ul>
+	  <li> Home </li>
+	  <li> Astronauts </li>
+	  <li> Albums </li>
+	  <li> Gallery </li>
+	  <li> Bio </li>
+	  <li> Blog </li>
+	  <ul/>
+      </div>
+      <div class="main">
+	 <h1> hi ollie </h1>
+	  <img src="1234.jpg" width= "350" Height= "480" />
+	  <img src="png 2.png" width= "810" Height= "480" />
+	  <a class="btn btn-primary" href="#">See all</a>
+	 
+	  <p> “Common Cents Party, a hard-hitting acoustic punk/electronic four-piece from Atlanta, Georgia, 
+	  combines an unleashed live performance with edgy lyrics, unforgettable hooks and well-studied 
+	  synth-rock sounds. A must-see, must-hear new band.” -Screech Magazine2<P/>
+	  <a href="shows.html"> "Heres a list of upcoming shows" </a>
+ 
+	  
+	  
+	  
+	  </div>
+	
+    </div>
+  </body>
+</html>
